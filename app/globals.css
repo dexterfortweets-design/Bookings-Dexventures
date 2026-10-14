@@ -1,0 +1,12 @@
+:root{--navy:#08193a;--blue:#0a9bff;--sun:#ffe600;--bg:#f2f8ff;--ink:#0a1f44;--line:#d5e4f5}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 "Segoe UI",system-ui,sans-serif}
+nav{background:var(--navy);color:#fff;display:flex;gap:16px;align-items:center;padding:12px 16px;flex-wrap:wrap}
+nav b{font-size:1.2rem;margin-right:auto}nav b span{color:var(--blue)}nav a{color:#bfe3ff;text-decoration:none}
+main{max-width:760px;margin:0 auto;padding:16px;display:grid;gap:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px}
+.price{background:var(--sun);color:var(--navy);font-weight:800;padding:2px 10px;border-radius:6px}
+input{width:100%;padding:10px;border:1px solid var(--line);border-radius:8px;font:inherit;margin:4px 0 10px}
+button,.btn{background:var(--blue);color:#fff;border:0;border-radius:10px;padding:10px 16px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.err{color:#b91c1c}.mute{color:#4a5f80}.copy{border:2px dashed var(--navy);border-radius:10px;padding:14px;margin-bottom:12px}
+@media print{nav,.noprint{display:none}}
